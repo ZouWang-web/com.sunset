@@ -13,5 +13,6 @@ public interface CustomerMapper {
 
 
     @Update("update *from set where id=?")
-    public  List<Customer> findByid();
+    public  List<Customer> findByid(String id);
+
 }
